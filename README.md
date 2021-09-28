@@ -3,6 +3,7 @@
 
 <hr/>
 
+<h3>How to use</h3>
 
 ```sh
 git clone https://github.com/Mohammad-amini/test.git test
