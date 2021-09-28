@@ -19,6 +19,7 @@ class CreateAdvertisesTable extends Migration
             $table->string('note');
             $table->tinyInteger('user');
             $table->tinyInteger('category');
+            $table->string('specs');
             $table->decimal('amount');
             $table->timestamp('expire');
             $table->timestamps();

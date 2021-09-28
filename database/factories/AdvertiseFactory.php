@@ -28,7 +28,7 @@ class AdvertiseFactory extends Factory
             'user' => $this->faker->numberBetween(1, 10),
             'category' => $this->faker->numberBetween(1, 10),
             'amount' => $this->faker->randomFloat(100000, 0),
-            'specs' => '{}',
+            'specs' => '',
             'expire' => $this->faker->date()
         ];
     }
