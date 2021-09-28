@@ -1,0 +1,35 @@
+.card{
+	border: 1px solid aqua;
+	border-radius: 10px;
+}
+
+	.card-img, .card-img-bottom, .card-img-top {
+		width: 100%;
+		overflow: hidden;
+	}
+	.fluid-container .col-md-3 .card img{
+		overflow: hidden;
+	}
+	.fluid-container .col-md-3:hover .card img{
+		transition: all 0.2s ease-in-out;
+		border-radius: 15px 0 0 !important;
+	}
+	.fluid-container .col-md-3{
+		transition: all 0.2s ease-in-out;
+		margin-bottom: 1.2em;
+		min-height: 100%;
+	}
+	.fluid-container .col-md-3:hover .card{
+		border: 1px solid #000;
+		border-radius: 15px;
+		overflow: hidden;
+	}
+	#pagination{
+		position: static;
+		bottom: 0;
+		margin: auto;
+	}
+    .card-title {
+        border-bottom: 1px solid cyan;
+        padding-bottom: 10px;
+    }
