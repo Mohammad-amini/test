@@ -13,6 +13,12 @@
     {{$advertise->title}}
   </div>
   <style type="text/css">
+    body{
+        height: auto;
+    }
+    .fluid-container{
+        padding-top: 5em
+    }
       #gallery{
         display: flex;
         justify-content: center;
@@ -22,7 +28,7 @@
     .card-img, .card-img-bottom, .card-img-top {
         width: 100%;
         overflow: hidden;
-        height: 320px;
+        /*height: 320px;*/
     }
     .container .col-md-3:hover .card img{
         transition: all 0.1s ease-in-out;

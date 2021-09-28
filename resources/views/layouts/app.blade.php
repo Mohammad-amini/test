@@ -10,9 +10,10 @@
             .material-icons-outlined{
                 font-family: 'Material Icons';
             }
-            #add_advertise{
+            #add_advertise {
                 position: fixed;
-                left: 14em
+                right: 1em;
+                font-size: 19px;
             }
             #add_advertise span{
                 font-size: 3em;
@@ -24,13 +25,12 @@
                 list-style: none;
             }
             body{
-                /*height: 100vh;*/
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
             }
             body .navbar{
-                position: absolute;
+                /*position: absolute;*/
                 top: 0.7em;
             }
         </style>
@@ -44,16 +44,15 @@
     </head>
     <body>
         <nav class="navbar navbar-light">
-                    @auth
-                        <h2>Wellcome <a class="navbar-brand" href="#">{{Auth::user()->name}}</a></h2>
-                    @endauth
+            @auth
+                <h2>Wellcome <a class="navbar-brand" href="#">{{Auth::user()->name}}</a>    <a id='add_advertise' href="/advertises/add" title="Add new advertise"><span class="material-icons">note_add</span></a></h2>
+            @endauth
 
         </nav>
         <div class="fluid-container">
             <div class="row" style="margin: auto;">
                 <div class="col-md-2" dir="ltr" align="" style="position: relative; padding-left: 0; padding-top: 1em; border: 1px solid aqua; border-radius: 10px; margin: 1em 1em;">
                     @auth
-                        <a id='add_advertise' href="/advertises/add" title="Add new advertise"><span class="material-icons">note_add</span></a>
                     @endif
                     <ul dir="ltr" style="">
                         <li><a href="/">Home</a></li>

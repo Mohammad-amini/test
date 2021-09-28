@@ -10,6 +10,9 @@
 	body{
     	height: unset;
 	}
+    .fluid-container{
+        padding-top: 5em
+    }
 </style>
 @section('content')
     <div class="row" style="position: relative;">
