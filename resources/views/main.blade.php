@@ -7,6 +7,9 @@
     @parent
 @endsection
 <style type="text/css">
+	body{
+    	height: unset;
+	}
 </style>
 @section('content')
     <div class="row" style="position: relative;">
