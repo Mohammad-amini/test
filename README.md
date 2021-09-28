@@ -5,7 +5,7 @@
 
 
 ```sh
-git clone https://github.comMohammad-amini/test.git test
+git clone https://github.com/Mohammad-amini/test.git test
 cd test
 ```
 
